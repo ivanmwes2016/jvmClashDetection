@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="compiler-interface-sources-2.10">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/jps/compiler-interface-sources-2.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jps/compiler-interface-sources-2.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jps/compiler-interface-sources-2.13.jar!/" />
+    </SOURCES>
+  </library>
+</component>

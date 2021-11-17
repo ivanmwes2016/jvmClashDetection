@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="pluginXml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pluginXml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/lib/pluginXml.jar!/" recursive="false" />
+  </library>
+</component>

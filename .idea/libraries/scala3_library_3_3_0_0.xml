@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="scala3-library_3-3.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tasty/scala3-library_3-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tasty/tasty-core_3-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tasty/tasty-runtime.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
