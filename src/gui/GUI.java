@@ -54,11 +54,11 @@ public class GUI extends JFrame {
     private JTabbedPane manageMainJpanel;
     private JPanel manageTopJpanel;
     private JPanel mProgramJpanel;
-    private JComboBox comboBox1;
-    private JComboBox comboBox2;
-    private JComboBox comboBox3;
-    private JComboBox comboBox4;
-    private JComboBox comboBox5;
+    private JComboBox programsListComboBox;
+    private JComboBox moduleListcomboBox;
+    private JComboBox activityComboBox;
+    private JComboBox DayListcomboBox;
+    private JComboBox TimeListComboBox;
     private JButton ADDButton;
     private JButton DELETEButton;
     private JButton EDITButton;
@@ -67,12 +67,12 @@ public class GUI extends JFrame {
     private ProgramHandler handler;
     private String gPid = "none";
 
+    /** GUI Constructor*/
     public GUI(ProgramHandler handler) {
 
         super("Scheduling System");
         this.handler = handler;
         createTable(); //appends table to the GUI
-
         addProgramButton.setBorderPainted(true);
 
         DefaultListModel<String> programsListModel = new DefaultListModel<>();
@@ -86,6 +86,7 @@ public class GUI extends JFrame {
             programsListModel.addAll(programs);
         }
 
+        //Button Groups
         ButtonGroup programTypeGroup = new ButtonGroup();
         programTypeGroup.add(undergraduateRadioButton);
         programTypeGroup.add(postgraduateRadioButton);
